@@ -1,6 +1,6 @@
 # UIDemo
 一些UI效果demo，功能：指纹解锁、手势密码（设置手势密码和手势密码解锁）、新手引导、Lottie动画、移动按钮到指定区域进行验证
-#说明：
+# 说明：
 1.指纹解锁  功能在fingerprint目录下  使用的是系统提供的FingerprintManager
 
 2.手势密码 功能在gesture目录下  UI效果使用的是：https://github.com/sinawangnan7/GestureLockView  demo项目中是将相关代码复制到项目中(复制部分在目录gesture/gestureView)
