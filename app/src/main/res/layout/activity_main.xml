@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jdonce.UITestDemo.MainActivity">
+
+    <Button
+        android:id="@+id/btn_fingerprint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="指纹解锁" />
+
+    <Button
+        android:id="@+id/btn_set_gesture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="设置手势密码" />
+
+    <Button
+        android:id="@+id/btn_gesture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="手势密码解锁" />
+
+    <Button
+        android:id="@+id/btn_user_guide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="新手引导" />
+
+    <Button
+        android:id="@+id/btn_animation_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="lottie动画" />
+
+    <Button
+        android:id="@+id/btn_drag_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="移动按钮验证" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/iv"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/ic_apple_logo" />
+
+    <com.eftimoff.androipathview.PathView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/pathView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:pathColor="@android:color/holo_green_light"
+        app:pathWidth="3dp"
+        app:svg="@raw/grass" />
+</LinearLayout>

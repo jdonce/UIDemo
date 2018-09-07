@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">UITestDemo</string>
+
+    <string name="fingerprint_dialog_title">指纹登录</string>
+    <string name="fingerprint_dialog_tips">请验证指纹</string>
+    <string name="fingerprint_dialog_btn">取消</string>
+
+    <string name="gesture_lock_setting_title">设置手势密码</string>
+</resources>
