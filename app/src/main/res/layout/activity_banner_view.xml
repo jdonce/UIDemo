@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    android:clipChildren="false"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipChildren="false">
+
+        <com.jdonce.UITestDemo.bannerView.custom.BannerViewPager
+            android:id="@+id/view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:clipChildren="false" />
+
+        <com.jdonce.UITestDemo.bannerView.custom.IndicatorView xmlns:indicator="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/indicator_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:layout_marginBottom="@dimen/dp_5"
+            indicator:indicator_background="@drawable/indicator_selector"
+            indicator:indicator_click="false"
+            indicator:indicator_height="@dimen/dp_5"
+            indicator:indicator_horizontalSpace="@dimen/dp_5"
+            indicator:indicator_width="@dimen/dp_5"
+            indicator:show_count="5" />
+    </FrameLayout>
+
+    <com.youth.banner.Banner
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="20dp"
+        android:clipChildren="false" />
+
+    <com.jdonce.UITestDemo.bannerView.custom1.LoopViewPager
+        android:id="@+id/loop_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="@dimen/dp_10"
+        android:clipChildren="false" />
+</LinearLayout>

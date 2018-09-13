@@ -5,6 +5,13 @@
     <uses-permission android:name="android.permission.USE_FINGERPRINT" />
     <!-- 震动权限 -->
     <uses-permission android:name="android.permission.VIBRATE" />
+
+    <!-- if you want to load images from the internet -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- if you want to load images from a file OR from the internet -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -33,6 +40,8 @@
         <activity android:name="com.jdonce.UITestDemo.animationView.AnimationViewActivity" />
         <!--拖动-->
         <activity android:name="com.jdonce.UITestDemo.dragView.DragViewActivity" />
+        <!--banner-->
+        <activity android:name=".bannerView.BannerViewActivity" />
     </application>
 
 </manifest>

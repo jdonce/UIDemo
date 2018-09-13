@@ -9,6 +9,7 @@ import android.widget.Toast;
 
 import com.eftimoff.androipathview.PathView;
 import com.jdonce.UITestDemo.animationView.AnimationViewActivity;
+import com.jdonce.UITestDemo.bannerView.BannerViewActivity;
 import com.jdonce.UITestDemo.dragView.DragViewActivity;
 import com.jdonce.UITestDemo.fingerprint.FingerprintAuthenticationDialogFragment;
 import com.jdonce.UITestDemo.gesture.GestureLockHelper;
@@ -27,7 +28,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.btn_user_guide).setOnClickListener(this);
         findViewById(R.id.btn_animation_view).setOnClickListener(this);
         findViewById(R.id.btn_drag_view).setOnClickListener(this);
-
+        findViewById(R.id.btn_banner_view).setOnClickListener(this);
 
         final PathView pathView = findViewById(R.id.pathView);
         //pathView.setFillAfter(true);//填充路径的颜色
@@ -71,6 +72,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn_drag_view:
                 startActivity(new Intent(MainActivity.this, DragViewActivity.class));
+                break;
+            case R.id.btn_banner_view:
+                startActivity(new Intent(MainActivity.this, BannerViewActivity.class));
                 break;
         }
     }
