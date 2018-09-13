@@ -1,5 +1,5 @@
 # UIDemo
-一些UI效果demo，功能：指纹解锁、手势密码（设置手势密码和手势密码解锁）、新手引导、Lottie动画、移动按钮到指定区域进行验证
+主要是实践记录的一些UI效果demo，功能：指纹解锁、手势密码（设置手势密码和手势密码解锁）、新手引导、Lottie动画、移动按钮到指定区域进行验证
 #说明：
 1. 指纹解锁  功能在fingerprint目录下  使用的是系统提供的FingerprintManager
 
@@ -13,4 +13,5 @@
        json动画资源在：https://www.lottiefiles.com/
 
 5. 移动按钮验证  功能在dragView目录下 主要监听touch事件
+
 6. 轮播图切换   测试功能在bannerView目录,测试中有两种：1. 自定义 只实现了单一的轮播效果 只适合某个单一的场景 如指示器、轮播切换效果等不符合需要自行添加 ; 2. 引用第三方库 [banner](https://github.com/youth5201314/banner) 功能多样灵活
